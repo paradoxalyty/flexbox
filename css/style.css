@@ -12,8 +12,14 @@ section {
     padding: 50px;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 h2 {
-    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
     color: #445161;
     font-size: 30px;
     font-weight: 400;
@@ -61,7 +67,7 @@ h1 {
 }
 
 .header-primary ul li {
-    padding: 0 0 2px 0;
+    margin: 0 0 2px 0;
     color: #fff;
     font-size: 20px;
     font-weight: 400;
@@ -93,13 +99,117 @@ h1 {
 }
 
 .about p {
-    padding-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 .blueRectangle {
     width: 430px;
     height: 245px;
-    background-color: #445161;
+    background: #445161;
 }
 
 /*------------------------------------------pluses-----*/
+
+.second {
+    min-height: 318px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+
+.pluses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pluses li {
+    width: 526px;
+    padding: 0 0 35px 40px;
+    background: url(../img/cross.jpg) no-repeat  0% 5%;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    list-style-type: none;
+}
+
+/*------------------------------------screenshots------*/
+
+.third {
+    min-height: 387px;
+    padding-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    margin: 0 0 30px 0;
+}
+
+.screenshot {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 0 15px 0 0;
+    background: #445161;
+}
+
+.third figcaption {
+    width: 359px;
+}
+
+/*--------------------------------------------avatar---*/
+
+.fourth {
+    background: #f5f5f5;
+    padding-bottom: 26px;
+}
+
+.review {
+    display: flex;
+    margin: 0 0 24px 0;
+}
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+    background: #445161;
+}
+
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.feedback {
+    position: relative;
+    width: 436px;
+    padding: 16px 20px 16px 13px;
+    border-radius: 5px;
+    background: #ebebeb;
+}
+
+.feedback::before {
+    position: absolute;
+    top: 31px;
+    left: -13px;
+    content: url(../img/arrow.png);
+}
+
+.feedback p {
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    letter-spacing: .4px;
+}
+
+.feedback span {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/*---------------------------------------------offer---*/
