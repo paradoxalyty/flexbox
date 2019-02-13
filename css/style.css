@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    padding: 0 0 30px 0;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p {
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*-------------------------------------header----------*/
+
+.header-primary {
+    display: flex;
+    justify-content: space-between;
+    min-height: 223px;
+    padding: 50px;
+    background: #445162;
+}
+
+h1 {
+    margin: 0 0 50px 0;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+.header-primary ul {
+    min-width: 422px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.header-primary ul li {
+    padding: 0 0 2px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+    list-style-image: url(../img/check%20icon.png);
+}
+
+.whiteRectangle {
+    width: 469px;
+    height: 214px;
+    background: #fff;
+}
+
+/*------------------------------------------about------*/
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    min-height: 245px;
+}
+
+.about {
+    width: 600px;
+}
+
+.about h2 {
+    text-align: left;
+}
+
+.about p {
+    padding-bottom: 20px;
+}
+
+.blueRectangle {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+/*------------------------------------------pluses-----*/
