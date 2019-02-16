@@ -323,15 +323,38 @@ h1 {
     outline: none;
 }
 
+.contact-us input::-webkit-input-placeholder { 
+    color: #445162;
+}
+.contact-us input::-moz-placeholder {
+    color: #445162;
+}
+.contact-us input:-moz-placeholder {
+    color: #445162;
+}
+.contact-us input:-ms-input-placeholder {
+    color: #445162;
+}
+
 .contact-us textarea {
     height: 140px;
     margin-bottom: 35px;
+    color: #445162;
     resize: none;
 }
-/*
-.contact-us placeholder {
+
+.contact-us textarea::-webkit-input-placeholder { 
     color: #445162;
-}*/
+}
+.contact-us textarea::-moz-placeholder {
+    color: #445162;
+}
+.contact-us textarea:-moz-placeholder {
+    color: #445162;
+}
+.contact-us textarea:-ms-input-placeholder {
+    color: #445162;
+}
 
 .form-btn {
     display: block;
@@ -511,7 +534,7 @@ h1 {
 }
 
 /*--------------------------------------------footer---*/
-/*privetik*/
+
 .footer-primary {
     text-align: center;
 }
