@@ -225,10 +225,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
-/*
-.offer-head {
-    width: 100%;
-}*/
 
 .offer {
     align-self: flex-end;
@@ -258,7 +254,7 @@ h1 {
     margin: 0 0 20px 20px;
 }
 
-.offer li {
+.offer ol li {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -298,3 +294,232 @@ h1 {
 }
 
 /*----------------------------------------contact us---*/
+
+.contacts-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 409px;
+    background: #445162;
+}
+
+.contacts-block h2 {
+    color: #fff;
+}
+
+.form-element {
+    display: block;
+    width: 480px;
+    padding: 11px 10px;
+    border: 0 none;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-element:focus {
+    outline: none;
+}
+
+.contact-us textarea {
+    height: 140px;
+    margin-bottom: 35px;
+    resize: none;
+}
+/*
+.contact-us placeholder {
+    color: #445162;
+}*/
+
+.form-btn {
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    border: 0 none;
+    border-radius: 5px;
+    background: #fff;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.form-btn:hover {
+    background: #ebebeb;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.form-btn:active {
+    background: #445162;
+}
+
+.form-btn:focus {
+    outline: none;
+}
+
+.contacts-block > .wrapper {
+    margin: 0 0 0 45px;
+}
+
+.contacts {
+    margin: 0 0 16px 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts li {
+    position: relative;
+    margin-bottom: 21px;
+    list-style-type: none;
+}
+
+.skype:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    display: block;
+    width: 24px;
+    height: 26px;
+    background: url(../img/skype_icon.png);
+    content: "";
+}
+
+.icq:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(../img/icq_icon.png);
+    content: "";
+}
+
+.email:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/email_icon.png);
+    content: "";
+}
+
+.phone:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    display: block;
+    width: 24px;
+    height: 23px;
+    background: url(../img/phone_icon.png);
+    content: "";
+}
+
+.social {
+    
+}
+
+.social > a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.twitter {
+    background: url(../img/twitter.png);
+}
+
+.twitter:hover {
+    background: url(../img/twitter.png) #08a0e9;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+.facebook {
+    background: url(../img/facebook.png);
+}
+
+.facebook:hover {
+    background: url(../img/facebook.png) #3b5998;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+.linkedin {
+    background: url(../img/linkedin.png);
+}
+
+.linkedin:hover {
+    background: url(../img/linkedin.png) #0077B5;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+.google {
+    background: url(../img/google.png);
+}
+
+.google:hover {
+    background: url(../img/google.png) #dd4d39;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+.youtube {
+    background: url(../img/youtube.png);
+}
+
+.youtube:hover {
+    background: url(../img/youtube.png) #dd4d39;
+    transform: scale(1.1);
+    transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    cursor: pointer;
+}
+
+/*--------------------------------------------footer---*/
+/*privetik*/
+.footer-primary {
+    text-align: center;
+}
+
+.footer-primary span {
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .3px;
+}
