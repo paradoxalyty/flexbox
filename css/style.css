@@ -12,13 +12,8 @@ section {
     padding: 50px;
 }
 
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 h2 {
+    width: 100%;
     margin: 0 0 30px 0;
     color: #445161;
     font-size: 30px;
@@ -136,6 +131,9 @@ h1 {
 /*------------------------------------screenshots------*/
 
 .screenshots-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     min-height: 387px;
     padding-bottom: 20px;
 }
@@ -160,6 +158,9 @@ h1 {
 /*--------------------------------------------avatar---*/
 
 .reviews-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background: #f5f5f5;
     padding-bottom: 26px;
 }
@@ -224,10 +225,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*
 .offer-head {
     width: 100%;
-}
+}*/
 
 .offer {
     align-self: flex-end;
