@@ -48,7 +48,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -100;
+    z-index: -1;
     min-width: 100%;
     min-height: 100%;
     width: auto;
@@ -61,7 +61,6 @@ p {
 .header-block {
     display: flex;
     justify-content: space-between;
-    min-height: 223px;
     padding: 50px;
     background: rgba(68, 81, 98, 0.8);
 }
@@ -102,7 +101,6 @@ h1 {
 .about-block {
     display: flex;
     justify-content: space-between;
-    min-height: 245px;
 }
 
 .about {
@@ -120,13 +118,11 @@ h1 {
 .blueRectangle {
     width: 430px;
     height: 245px;
-    background: #445161;
 }
 
 /*------------------------------------------pluses-----*/
 
 .dignity-block {
-    min-height: 318px;
     padding-bottom: 20px;
     background: rgba(245, 245, 245, 0.8);
 }
@@ -197,7 +193,6 @@ summary:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-height: 387px;
     padding-bottom: 20px;
 }
 
@@ -366,7 +361,6 @@ summary:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 409px;
     background: rgba(68, 81, 98, 0.9);
 }
 
