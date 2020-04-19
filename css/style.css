@@ -614,6 +614,30 @@ summary:focus {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+
+    details {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 0 35px 35px;
+    }
+
+    details[open] > summary {
+        background: transparent;
+        color:  #333;
+    }
+
+    summary::before {
+        top: 8px;
+        left: -30px;
+        font-size: 30px;
+    }
+
+    .zindex {
+        position: inherit;
+        max-width: 97%;
+        padding: 5px;
+    }
+
     .screenshots-block,
     .reviews-block {
         justify-content: center;
@@ -623,6 +647,13 @@ summary:focus {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
+    .offer {
+        margin: 22px;
+    }
+
+    .form-btn {
+        margin-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -631,11 +662,10 @@ summary:focus {
     .flex-column {
         flex-direction: column;
         align-items: center;
-        /*margin-bottom: 20px;*/
     }
 
     section {
-        padding: 0 5px 20px 5px;
+        padding: 20px 5px;
     }
 
     h1 {
@@ -660,17 +690,22 @@ summary:focus {
         padding: 20px;
     }
 
+    .blueRectangle {
+        max-width: 90%;
+        height: 245px;
+    }
+
     .offer {
         align-self: center;
         margin: 10px 0;
     }
-
-    .form-element {
-        width: 300px;
+    form.contact-us {
+        width: 100%;
     }
 
-    .form-btn {
-        margin-bottom: 20px;
+    .form-element {
+        width: 80%;
+        margin: 0 auto 20px auto;
     }
 
     .contacts-block > .wrapper {
@@ -686,13 +721,5 @@ summary:focus {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
-    .blueRectangle {
-        max-width: 280px;
-        height: 245px;
-    }
-
-    .form-element {
-        width: 200px;
-    }
 }
 
