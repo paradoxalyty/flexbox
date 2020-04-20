@@ -100,6 +100,7 @@ h1 {
 .about-block {
     display: flex;
     justify-content: space-between;
+    background: rgba(255,255,255, 0.7);
 }
 
 .about {
@@ -199,6 +200,7 @@ summary:focus {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 20px;
+    background: rgba(255,255,255, 0.7);
 }
 
 .description {
@@ -251,7 +253,7 @@ summary:focus {
     max-width: 432px;
     padding: 16px 20px 16px 12px;
     border-radius: 5px;
-    background: #ebebeb;
+    background: rgba(235,235,235, 0.6);
 }
 
 .feedback::before {
@@ -693,6 +695,15 @@ summary:focus {
     .blueRectangle {
         max-width: 90%;
         height: 245px;
+    }
+
+    .screenshots-block .description {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .screenshots-block h4 {
+        padding: 10px 0;
     }
 
     .offer {
