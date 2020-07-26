@@ -294,7 +294,7 @@ summary:focus {
 
 .offer {
     align-self: flex-end;
-    max-width: 300px;
+    min-width: 300px;
     padding: 17px 0 20px 0;
     border-radius: 5px;
     margin: 0 22px 0 22px;
@@ -644,14 +644,14 @@ summary:focus {
     .reviews-block {
         justify-content: center;
     }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
 
     .offer {
         margin: 22px;
     }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
 
     .form-btn {
         margin-bottom: 20px;
